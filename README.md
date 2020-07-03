@@ -2,12 +2,14 @@
 
 ---
 
+# function list
+----
 
 ## rm_sp_char
 - Remove special character
 
 
-## rmp_sp_char_num
+## rm_sp_char_num
 #### Remove special character and number
 
 
