@@ -3,8 +3,8 @@
 ---
 
 
-- rm_sp_char
-#### Remove special character
+## rm_sp_char
+- Remove special character
 
 
 ## rmp_sp_char_num
