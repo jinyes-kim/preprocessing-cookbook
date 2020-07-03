@@ -51,18 +51,6 @@ def rm_sp_char_num(list_data):
     return
 
 
-# word count
-def word_count(list_data):
-    res_dict = {}
-    for word in list_data:
-        if word in res_dict:
-            res_dict[word] += 1
-        else:
-            res_dict[word] = 1
-
-    return res_dict
-
-
 # example
 sample = ['a!!123', 'a!', '!b', 'thisis###', 'c', 'c1']
 
