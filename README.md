@@ -2,7 +2,8 @@
 
 ---
 
-# function list
+- function list
+
 ----
 
 ## rm_sp_char
