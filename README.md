@@ -3,7 +3,7 @@ my data preprocessing cookbook
 
 
 
-#### rm_sp_char
+#### -rm_sp_char
 ##### Remove special character
 
 
