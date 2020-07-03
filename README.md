@@ -16,7 +16,7 @@ Remove special character and number
 　
  
 ## word_count
-this function is to change data type list to dict and to count word
+this function is to change data type that list to dict and to count word
 
 　
  
