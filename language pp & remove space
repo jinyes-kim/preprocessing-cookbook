@@ -1,0 +1,22 @@
+import re
+
+
+def only_eng_num(word):
+    word = re.sub('[^0-9a-zA-Z]', ' ', word).strip()
+    return word
+
+
+def pp(word):
+    spaces = [' ' * x for x in range(2, 10)]
+    for space in spaces:
+        if space in word:
+            word = word.replace(space, '')
+    return word
+
+
+sample_list = ['asdf we are 가나다 123', 'asdf we are 가나다 123', 'asdf we are 가나다 123']
+tmp = list(map(only_eng_num, sample_list))
+print(tmp)
+
+tmp = list(map(pp, tmp))
+print(tmp)
